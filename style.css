@@ -1,0 +1,82 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background: #fcefee;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: #ff6f61;
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .language-selector,
+  #hindi-sections {
+    margin: 20px;
+  }
+  .language-selector,
+  #english-sections {
+    margin: 20px;
+  }
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6f61;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff856c;
+    transform: scale(1.05);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #letters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .letter-card {
+    width: 120px;
+    height: 150px;
+    background: white;
+    border: 2px solid #ff6f61;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .letter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .letter-card img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .letter-card h2 {
+    font-size: 24px;
+    color: #ff6f61;
+    margin: 10px 0 5px;
+  }
+  
